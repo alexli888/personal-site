@@ -27,11 +27,15 @@ html {
 }
 
 
-.profile-picture{
-  width: 350px;
-  height: 350px;
+.profile-picture {
+  width: 300px;              /* pick your final display size */
+  height: 300px;             /* same as width → perfect circle */
   border-radius: 50%;
+  object-fit: cover;         /* fills circle without distortion */
+  object-position: center 20%;/* crop a little from the bottom */
+  overflow: hidden;
 }
+
 
 .content {
   margin-left: 250px;
