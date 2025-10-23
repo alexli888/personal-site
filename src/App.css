@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  background-color: #0D1B2A;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.custom-navbar {
+  background-color: rgba(0, 188, 212, 0.9); /* Teal background color with opacity */
+  height: 60px; /* Adjusted height */
+  padding: 0 20px; /* Padding around the navbar */
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space between brand and nav */
+  position: fixed; /* Fixed position at the top */
+  top: 0; /* Align to the top */
+  width: 100%; /* Full width */
+  z-index: 1000; /* Ensure it stays on top of other content */
+}
+
+.custom-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Center items vertically */
+  position: absolute; /* Position absolute to layer on top */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust position to be centered */
+  width: auto; /* Adjust width as needed */
+  z-index: 2; /* Higher z-index to be above custom-navbar */
+  gap: 100px;
+}
+
+.custom-nav:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+.custom-link {
+  font-family: 'Arial', sans-serif; /* Pretty font */
+  font-size: 18px; /* Font size */
+  color: white; /* Font color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.custom-link:hover {
+  color: #26C6DA; /* Change color on hover */
+}
