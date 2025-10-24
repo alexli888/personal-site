@@ -29,13 +29,13 @@ const LandingPage = () => {
                     <a href="mailto:alexli@wpi.edu" target="_blank" rel="noopener noreferrer" className="icon-container email">
                         <FaEnvelope size={40} />
                     </a>
-                    <a href="https://www.linkedin.com/in/alex-li" target="_blank" rel="noopener noreferrer" className="icon-container linkedin">
+                    <a href="https://www.linkedin.com/in/alex-jianqiao-li" target="_blank" rel="noopener noreferrer" className="icon-container linkedin">
                         <FaLinkedin size={40} />
                     </a>
-                    <a href="https://github.com/alexli" target="_blank" rel="noopener noreferrer" className="icon-container github">
+                    <a href="https://github.com/alexli888" target="_blank" rel="noopener noreferrer" className="icon-container github">
                         <FaGithub size={40} />
                     </a>
-                    <a href="https://drive.google.com/file/d/1JFIr94rAh55e3Ejy0-m2L6_DnPeRewej/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="icon-container resume">
+                    <a href="https://drive.google.com/file/d/1_o-CztX0B52nUlfUIA1mELn4QuwzCmAw/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="icon-container resume">
                         <FaFileAlt size={40} />
                     </a>
                 </div>

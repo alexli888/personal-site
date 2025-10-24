@@ -6,7 +6,7 @@ import './AboutMe.css'; // Ensure this path is correct
 import { FaEnvelope, FaLinkedin, FaGithub, FaFileAlt } from 'react-icons/fa';
 
 
-import profileImage from '../../assets/profile.PNG'; // Ensure this path is correct (match disk casing)
+import profileImage from '../../assets/profile.png'; // Ensure this path is correct (match disk casing)
 import iqp from '../../assets/iqp.png';
 import mhaccImage from '../../assets/MHACC.png';
 import mmumage from '../../assets/mmu.png';
@@ -75,7 +75,7 @@ const AboutMe = () => {
                   <Card.Img variant="top" src={almaAI} style={{ height: '100px', objectFit: 'contain', background: '#007142' }} />
                   <br />
                   <Card.Body>
-                    <Card.Title style={{ color: '#D1D5DB' }}><b> Software Engineer Intern @ Fidelity Investments </b> <span style={{ color: '#9CA3AF', fontSize: '0.9em' }}></span></Card.Title>
+                    <Card.Title style={{ color: '#D1D5DB' }}><b> Software Engineer Intern @ Alma AI </b> <span style={{ color: '#9CA3AF', fontSize: '0.9em' }}></span></Card.Title>
                     <Card.Text style={{ color: '#9CA3AF', textAlign: 'left' }}>
                       - Contributed to the integration and deployment of TxGemma to an in-house drug discovery application, enabling real-world therapeutic reasoning tasks across drug labeling, safety, and regulatory challenges.
                       <br /><br />
